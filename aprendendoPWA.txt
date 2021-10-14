@@ -1,0 +1,23 @@
+Para tornar uma web app em PWA é necessário criar um ficheiro manifest.json na raiz do projecto que contem informações sobre o projecto
+e que va ajudar o browser a saber como instalar a app no telemovel.
+{
+    "name":"Food Ninja", - Especifica o nome da aplicacao
+    "short_name":"FoodNinja", - Especifica o nome que aparece por baixo do icone da app
+    "start_url":"/index.html", - Especifica o ficheiro de arranque
+    "display":"standalone", - Especifica se a aplicacao vai ser lancada pelo browser ou como standalone
+    "background_color": "#FFE9D2", - Especifica a cor de fundo do splash screen
+    "theme_color":"#FFE1C4", - Especifica a cor de tema da barra de topo da aplicacao   
+    "orientation":"portrait-primary", - Especifica como a aplicacao deve ser inicialmente orientada
+    "icons":[ - Regista os icones da aplicacao para diferentes ecras
+        {
+            "src":"/img/icons/icon-72x72.png",
+            "types":"image/png",
+            "sizes":"72x72"
+        },
+        {
+            "src":"/img/icons/icon-96x96.png",
+            "types":"image/png",
+            "sizes":"96x96"
+        },
+    ]
+    }
