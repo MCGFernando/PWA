@@ -21,3 +21,8 @@ e que va ajudar o browser a saber como instalar a app no telemovel.
         },
     ]
     }
+
+    Service Workers: Service worker sao processos que correm no background Mesmo quando a app for fechada. O seu trabalho é gerir as funcionalidades da app por ouvir eventos que 
+    ocorrem no navegador como requisicoes http, push messages.
+    Permite acessar o conteudo da App offline. Permite ainda realizar terefas sincrona, ou seja, permite realizar tarefas que necessitam de conexao online mesmo que estejas offline
+    e a tarefa executará por tras dos panos quando a conexão for reestabelecida. Permite receber notificaçoes (push notifications).
